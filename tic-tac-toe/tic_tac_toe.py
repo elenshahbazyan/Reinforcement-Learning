@@ -30,7 +30,7 @@ def train(epochs: int, print_every_n: int = 500):
     player2_wins = 0
 
     # For every epoch
-    for epoch in range(epochs):
+    for epoch in range(1,epochs+1):
         # get the winner
         winner = judge.play(all_states)
 
