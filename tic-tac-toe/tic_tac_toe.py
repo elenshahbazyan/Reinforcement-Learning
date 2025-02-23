@@ -42,7 +42,7 @@ def train(epochs: int, print_every_n: int = 500):
 
         # print the intermediate win rates, if needed
     if epoch % print_every_n == 0:
-        print(f'Player 1 win rate: {player1_wins/(epoch+1)}')
+        print(f"Epoch {epoch}: Player 1 wins = {player1_wins}, Player 2 wins = {player2_wins}")
 
         # update value estimates of both players
         player1.update_state_value_estimates()
@@ -85,7 +85,7 @@ def compete(turns):
     player2_wins = 0
 
     # For every turn
-    for turn in range(turns):
+    for turn in range(1,turns+1):
         # get the winner
         winner = judge.play(all_states)
 
@@ -97,8 +97,7 @@ def compete(turns):
 
         # reset the judge => players
         judge.reset()
-    print(f'Player 1 win rate: {player1_wins / turns}')
-    print(f'Player 2 win rate: {player2_wins / turns}')
+    print(f"Competition Results: Player 1 wins = {player1_wins}, Player 2 wins = {player2_wins}")
 
 
     # endregion Body
@@ -127,7 +126,7 @@ def play():
         rl_player.load_policy()
 
         # Get the winner
-        winner = judge.play(all_states)
+        winner = judge.play(all_states,print_state= True)
 
         # Check which player is the winner
         if winner == 1:
