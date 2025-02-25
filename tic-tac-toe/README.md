@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game with Reinforcement Learning
+# Tic-Tac-Toe Game 
 
 This project implements a Tic-Tac-Toe game using Reinforcement Learning (RL) in Python. The RL agents are trained to play optimally using state-value estimation and can compete against each other or a human player.
 
