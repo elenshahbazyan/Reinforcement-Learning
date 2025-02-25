@@ -19,3 +19,4 @@ This project implements a Tic-Tac-Toe game using Reinforcement Learning (RL) in 
 1. Clone this repository:
    ```bash
    git clone https://github.com/elenshahbazyan/Reinforcement-Learning.git
+   cd Reinforcement-Learning/tic-tac-toe
