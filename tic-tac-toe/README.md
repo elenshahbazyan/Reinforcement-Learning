@@ -15,8 +15,6 @@ This project implements a Tic-Tac-Toe game using Reinforcement Learning (RL) in 
 - NumPy (for numerical operations)
 - Pickle (for saving and loading policies)
 
-## File Structure
-
 ## How to Run
 1. Clone this repository:
    ```bash
