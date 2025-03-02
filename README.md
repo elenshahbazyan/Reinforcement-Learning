@@ -1,26 +1,8 @@
 # Reinforcement-Learning
-This repository is a collection of projects developed during a Reinforcement Learning (RL) course. It highlights the practical application of essential RL algorithms to solve a wide range of problems, from simple decision-making tasks to more complex environments. Each project is structured to demonstrate both theoretical understanding and practical implementation, with a focus on experimental analysis and results. These projects provide an opportunity to explore RL concepts hands-on and optimize agent performance through rigorous experimentation.
+This repository contains a collection of reinforcement learning implementations, providing a foundation for developing and testing RL agents. It includes several algorithms and models that can be trained in a variety of environments, with a focus on flexibility and ease of use.
+The goal of this project is to offer a clean and modular framework that allows for straightforward experimentation with different RL techniques. Whether you're interested in applying standard RL methods or exploring new approaches, this repository provides the necessary tools to train, evaluate, and analyze agent performance.
 # Projects Overview
 Project 1: Tic-Tac-Toe Game implementation
-# Getting Started
-To explore any of the RL projects:
 
-1.Clone the repository:
-git clone https://github.com/your_username/reinforcement-learning-projects.git
-
-cd reinforcement-learning-projects
-
-2.Navigate to a specific project folder: cd project-1
-
-3.Install dependencies (each project has its own requirem ents.txt): pip install -r requirements.txt
-
-4.Run the project: python main.py # Or train.py depending on the project
-
-Projects Included
-
--Basic RL Implementations – Foundational concepts applied to simple environments.
--Agent Training – Experiments with different reward struc tures and learning policies.
--Custom Environments – Simulating unique scenarios for RL models.
--Evaluation and Optimization – Analyzing performance and tuning hyperparameters.
-Each project's README.md contains details on its approach, cha llenges, and improvements.
+Project 2: Ten-armed-testbed 
 
