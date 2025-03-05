@@ -23,7 +23,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install the required dependencies (if any):
 
-pip install -r requirements.txt  # Create this file if you have dependencies
+pip install -r requirements.txt 
 # How to Use
 1. Train the RL Players
 You can train two RL players using Q-learning. The training involves the players playing against each other for a specified number of epochs. During each epoch, their strategies are updated based on the outcome of the game.
