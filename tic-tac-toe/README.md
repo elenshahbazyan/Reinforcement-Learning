@@ -5,7 +5,9 @@ This project implements a Tic Tac Toe game where two players (RL players) compet
 The project consists of the following files:
 
 --state.py: Contains functions related to the game state (e.g., generating all possible board configurations).
+
 --judge.py: Defines the Judge class which manages the game logic, such as determining winners and resetting the board.
+
 --player.py: Contains the RLPlayer and HumanPlayer classes. The RLPlayer uses Q-learning to learn the best strategy, and the HumanPlayer allows human input for playing against the AI.
 
 # Installation
