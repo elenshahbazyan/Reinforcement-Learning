@@ -1,5 +1,5 @@
 # Tic Tac Toe with Reinforcement Learning
-This project implements a Tic Tac Toe game where two players (RL players) compete and train against each other using Q-Learning. The goal is to train the RL players to play optimally and then compete against each other or a human player.
+This project implements a Tic Tac Toe game where two players (RL players) compete and train against each other. The goal is to train the RL players to play optimally and then compete against each other or a human player.
 
 # Project Structure
 The project consists of the following files:
