@@ -12,11 +12,9 @@ The project consists of the following files:
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/tic_tac_toe.git
+git clone https://github.com/elenshahbazyan/tic_tac_toe.git
 cd tic_tac_toe
-Ensure you have Python 3.6+ installed. You can check this by running:
 
-python --version
 (Optional) Create a virtual environment and activate it:
 
 python -m venv venv
