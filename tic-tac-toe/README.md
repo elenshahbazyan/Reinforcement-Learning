@@ -46,9 +46,15 @@ You will take turns entering moves for the human player, and the RL player will 
 
 # Code Overview
 state.py
+
 get_all_states(): Generates all possible board configurations for a Tic Tac Toe game.
+
 judge.py
+
 Judge: Manages the game logic, determining the winner and resetting the game state.
+
 player.py
-RLPlayer: Implements a reinforcement learning agent that learns the optimal strategy using Q-learning.
+
+RLPlayer: Implements a reinforcement learning agent that learns the optimal strategy.
+
 HumanPlayer: Allows the user to input moves when playing against the RL player
