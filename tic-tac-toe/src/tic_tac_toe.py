@@ -2,6 +2,7 @@ from state import get_all_states
 from player import RLPlayer, HumanPlayer
 from judge import Judge
 
+
 # Get all possible board configurations
 all_states = get_all_states(rows=3, columns=3)
 
@@ -30,19 +31,23 @@ def train(epochs: int, print_every_n: int = 500):
     player2_wins = 0
 
     # For every epoch
-    for epoch in range(1,epochs+1):
+    for epoch in range(1, 1 + epochs):
+
+
         # get the winner
+
         winner = judge.play(all_states)
 
         # check which player is the winner
         if winner == 1:
             player1_wins += 1
-        elif winner == -1:
+        if winner == -1:
             player2_wins += 1
 
         # print the intermediate win rates, if needed
-    if epoch % print_every_n == 0:
-        print(f"Epoch {epoch}: Player 1 wins = {player1_wins}, Player 2 wins = {player2_wins}")
+        if epoch % print_every_n == 0:
+            print(f'epoch n:{epoch}, win rate player 1:{player1_wins}, win rate player 2:{player2_wins}')
+
 
         # update value estimates of both players
         player1.update_state_value_estimates()
@@ -52,8 +57,8 @@ def train(epochs: int, print_every_n: int = 500):
         judge.reset()
 
     # Save the players' policies
-        player1.save_policy()
-        player2.save_policy()
+    player1.save_policy()
+    player2.save_policy()
 
     # endregion Body
 
@@ -79,25 +84,26 @@ def compete(turns):
     player1.load_policy()
     player2.load_policy()
 
-
     # Set the initial win rate of both players to 0
     player1_wins = 0
     player2_wins = 0
 
     # For every turn
-    for turn in range(1,turns+1):
+    for turn in range(turns):
+
+
         # get the winner
         winner = judge.play(all_states)
 
         # check which player is the winner
         if winner == 1:
             player1_wins += 1
-        elif winner == -1:
+        if winner == -1:
             player2_wins += 1
 
         # reset the judge => players
         judge.reset()
-    print(f"Competition Results: Player 1 wins = {player1_wins}, Player 2 wins = {player2_wins}")
+
 
 
     # endregion Body
@@ -114,28 +120,29 @@ def play():
     # region Body
 
     while True:
+        # Create a human player
         human_player = HumanPlayer()
 
         # Create RL player with ε = 0 exploring probability (i.e. greedy)
         rl_player = RLPlayer(all_states, epsilon=0)
 
+
         # Create a judge to organize the game
-        judge = Judge(human_player,rl_player)
+        judge = Judge(human_player, rl_player)
 
         # Load the RL player's policy
         rl_player.load_policy()
 
         # Get the winner
-        winner = judge.play(all_states,print_state= True)
+        winner = judge.play(all_states)
 
         # Check which player is the winner
         if winner == 1:
-            print("You win!")
+            print('You Win!')
         elif winner == -1:
-            print("You lose!")
+            print('You Lose!')
         else:
-            print("It's a tie!")
-
+            print("It's a tie")
 
     # endregion Body
 
