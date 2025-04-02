@@ -54,20 +54,4 @@ figure_3_5.png: A visualization of the optimal state-value function.
 
 figure_3_5_policy.png: A visualization of the optimal policy, showing arrows for the best actions in each state.
 
-# Directory Structure
 
-/gridworld_mdp
-│
-├── src/
-│   ├── grid_world.py        # Core gridworld MDP logic
-│   └── gridworld_mdp.py     # Script to run the simulations
-│
-├── book_images/             # Images from the book for reference
-│   └── Figure_3_2.PNG       # Example image of the gridworld layout
-│
-├── generated_images/        # Generated plots
-│   ├── figure_3_2.png       # State-value function for random policy
-│   ├── figure_3_5.png       # Optimal state-value function
-│   └── figure_3_5_policy.png # Optimal policy visualization
-│
-└── README.md                # This readme file
