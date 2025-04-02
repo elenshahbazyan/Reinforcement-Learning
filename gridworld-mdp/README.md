@@ -27,7 +27,6 @@ The agent follows a random policy where all four actions are selected with equal
 - Discount Factor: The factor that determines the importance of future rewards compared to immediate rewards.
 
 # Project Breakdown
-The project is divided into two main parts:
 
 # State-Value Function Computation
 In this part, the state-value function for a random policy is computed using the Bellman equation for a finite MDP.
