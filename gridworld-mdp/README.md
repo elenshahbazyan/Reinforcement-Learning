@@ -28,21 +28,21 @@ The agent follows a random policy where all four actions are selected with equal
 
 # Project Breakdown
 
-# State-Value Function Computation
+## State-Value Function Computation
 In this part, the state-value function for a random policy is computed using the Bellman equation for a finite MDP.
 
 Objective: Estimate the value of each state under the random policy and visualize the state-value function on the grid.
 
 Visualization: The state-value function is plotted and saved as figure_3_2.png. The figure shows the value function for the gridworld, with negative values near the edges due to the likelihood of hitting grid boundaries.
 
-# Optimal Policies and Value Functions
+## Optimal Policies and Value Functions
 In this part, the optimal state-value function is computed using the Bellman optimality equation and the optimal policy is determined for the gridworld environment.
 
 Objective: Calculate the optimal value function by solving the Bellman optimality equation and derive the optimal policy.
 
 Visualization: The optimal state-value function is saved as figure_3_5.png, and the optimal policy is visualized and saved as figure_3_5_policy.png. The optimal policy shows arrows indicating the best action to take from each state.
 
-# Results and Analysis
+## Results and Analysis
 State-Value Function: The state-value function for the random policy shows how the agent's expected reward evolves over time. The negative values near the edges of the grid are due to the higher probability of hitting the grid's boundary.
 
 Optimal Policy: The optimal policy maximizes the agent’s long-term reward by guiding it towards states with higher values (such as A and B).
