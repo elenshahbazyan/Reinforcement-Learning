@@ -2,7 +2,7 @@
 This repository contains a collection of projects that demonstrate various concepts and algorithms in Reinforcement Learning (RL). The focus is on implementing simple and well-known RL algorithms to solve different environments and problems. Below are the projects included in this repository:
 
 # Projects
-# Tic-Tac-Toe
+## Tic-Tac-Toe
 This project implements the game of Tic-Tac-Toe using Reinforcement Learning techniques. The goal is to train an agent to play the game optimally using algorithms such as Q-learning or Monte Carlo methods. The agent learns through trial and error, updating its strategy based on the game outcomes.
 
 Key features:
@@ -13,7 +13,7 @@ Key features:
 
 -Training the agent to achieve optimal strategies.
 
-# Ten-Armed Testbed
+## Ten-Armed Testbed
 The Ten-Armed Testbed is a classic benchmark problem in Reinforcement Learning. In this project, the environment consists of 10 one-armed bandits, each with a different probability distribution. The goal is to maximize the cumulative reward by selecting the optimal actions (arms) over time.
 
 Key features:
@@ -24,7 +24,7 @@ Key features:
 
 -Tracks the agent's performance and cumulative reward.
 
-# Gridworld MDP (Markov Decision Process)
+## Gridworld MDP (Markov Decision Process)
 This project models a simple Gridworld environment using a Markov Decision Process (MDP). The agent moves through a grid, choosing actions that result in different states, aiming to maximize rewards while avoiding penalties.
 
 Key features:
@@ -35,7 +35,7 @@ Key features:
 
 -Visual representation of the agent's learning process.
 
-# Gridworld DP (Dynamic Programming)
+## Gridworld DP (Dynamic Programming)
 The Gridworld DP project extends the MDP-based Gridworld environment by applying Dynamic Programming (DP) techniques to solve the reinforcement learning problem. This project shows how value iteration and policy iteration can be used to compute optimal policies in a known environment.
 
 Key features:
