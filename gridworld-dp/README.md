@@ -12,43 +12,29 @@ This project demonstrates the use of Dynamic Programming (DP) methods to solve a
 - The agent receives a reward of -1 for each non-terminal transition, except when it moves off the grid, where the state remains unchanged.
 
 - The goal is to compute the optimal policy for the agent using dynamic programming methods.
-
 # Key Concepts
-# Policy Evaluation (Prediction):
+## Policy Evaluation (Prediction):
 
 The value function for a given policy is computed iteratively. The value of a state represents the expected reward the agent can obtain by starting at that state and following the given policy.
 
-# Policy Improvement:
+## Policy Improvement:
 
 Based on the value function from the policy evaluation step, the policy is improved by selecting the action that maximizes the expected return in each state.
 
-# Policy Iteration:
+## Policy Iteration:
 
 This method combines policy evaluation and policy improvement, iterating until the policy converges to the optimal one. The optimal policy is one that maximizes the expected reward for each state.
 
-# Key Features
-# Policy Evaluation:
-
-This step computes the state values under a given policy by iteratively updating the values until they converge.
-
-# Policy Improvement:
-
-After evaluating the policy, the best actions are selected to improve the policy iteratively, ensuring it becomes more optimal over time.
-
-# Policy Iteration:
-
-This method uses the results of the policy evaluation and policy improvement steps to iteratively update the policy until it becomes optimal.
-
 # Results and Visualizations
-# State-Value Function:
+## State-Value Function:
 
 A grid representing the value function of each state, showing the expected reward from starting at that state and following the current policy.
 
-# Optimal Policy:
+## Optimal Policy:
 
 The final policy, which shows the best action to take from each state to maximize the long-term reward.
 
-# Policy Improvement:
+## Policy Improvement:
 
 After several iterations of policy evaluation, the policy improves. The progression of these improvements is visualized, showing how the policy becomes optimal.
 
