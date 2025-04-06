@@ -27,28 +27,28 @@ Objective: Understand the variability in rewards across different arms.
 
 Visualization: A violin plot (Figure 2.1) is generated to illustrate the variation in rewards for each action.
 
-# Greedy vs. ε-Greedy Action Selection
+## Greedy vs. ε-Greedy Action Selection
 Compares the performance of Greedy action selection with ε-greedy methods for different values of ε (ε = 0, 0.1, 0.01).
 
 Objective: Evaluate how different ε-greedy strategies balance exploration and exploitation.
 
 Visualization: Plots (Figure 2.2) show the effect of varying ε on average rewards and the percentage of optimal actions selected.
 
-# Optimistic Initial Values vs. Realistic Initial Values
+## Optimistic Initial Values vs. Realistic Initial Values
 Compares two bandit scenarios: one with optimistic initial values (Q1 = 5) and one with realistic initial values (Q1 = 0).
 
 Objective: Investigate how optimism in initial action-value estimates impacts early exploration.
 
 Visualization: Plots (Figure 2.3) illustrate the impact of optimistic versus realistic initial values on the agent’s performance.
 
-# Upper-Confidence-Bound (UCB) Action Selection
+## Upper-Confidence-Bound (UCB) Action Selection
 Evaluates the UCB strategy (with confidence level c = 2) against the ε-greedy strategy (ε = 0.1).
 
 Objective: Examine how UCB balances exploration and exploitation by using confidence intervals to prioritize uncertain actions.
 
 Visualization: Plots (Figure 2.4) demonstrate how each algorithm performs in terms of average reward over time.
 
-# Gradient Bandit Algorithms (GBA)
+## Gradient Bandit Algorithms (GBA)
 Explores the Gradient Bandit Algorithm (GBA) with and without a baseline for different step sizes (α = 0.1, 0.4).
 
 Objective: Study how the gradient approach dynamically adjusts action preferences over time based on received rewards.
