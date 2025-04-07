@@ -48,5 +48,12 @@ Key features:
 
 ## Project 5: [Gambler's](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/gambler-problem) Problem
 This project addresses the Gambler’s Problem, a classic problem in Reinforcement Learning modeled as a Markov Decision Process (MDP). The gambler has a certain amount of capital and makes bets on a sequence of coin flips. The goal is to reach a capital of 100 dollars without running out of money. The project uses value iteration to find the optimal betting strategy, maximizing the probability of reaching the goal.
+Key features:
+
+-Models the gambler’s capital as the state space and the stakes as actions.
+
+-Implements value iteration to calculate the optimal policy for the gambler.
+
+-Visualizes the value function and the optimal policy for different capital levels.
 # Reference
 Sutton R.S., Barto A.G. - Reinforcement Learning: An Introduction (2nd edition) https://archive.org/details/rlbook2018/mode/2up
