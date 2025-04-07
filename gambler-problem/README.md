@@ -1,4 +1,4 @@
-# Gambler Problem
+# Gambler's Problem
 This repository contains an implementation of the Gambler's Problem, which is a well-known problem in the field of reinforcement learning. The problem is modeled as a Markov Decision Process (MDP), where the goal is to find an optimal policy for a gambler who has a certain amount of capital and makes bets on a sequence of coin flips. The gambler wins if they reach a goal of 100 dollars and loses if they run out of money.
 
 The problem is solved using Value Iteration, an algorithm for finding the optimal policy by iterating over possible states and updating their value estimates until they converge.
