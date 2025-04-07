@@ -45,4 +45,4 @@ Gambler's Problem.ipynb: A Jupyter Notebook containing the full implementation o
 
 - A plot illustrating the change in value function over successive sweeps of value iteration and the final policy.
 
-generated_images/figure_4_3.png: The generated image showing the solution to the Gambler's Problem, including the value function and optimal policy, as described in the notebook.
+
