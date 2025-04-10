@@ -1,7 +1,7 @@
 # Tic Tac Toe Game
 This project implements a Tic Tac Toe game where two players (RL players) compete and train against each other. The goal is to train the RL players to play optimally and then compete against each other or a human player.
 
-# Project Structure
+## Project Structure
 The project consists of the following files:
 
 --state.py: Contains functions related to the game state (e.g., generating all possible board configurations).
@@ -10,7 +10,7 @@ The project consists of the following files:
 
 --player.py: Contains the RLPlayer and HumanPlayer classes. The RLPlayer uses Q-learning to learn the best strategy, and the HumanPlayer allows human input for playing against the AI.
 
-# Installation
+## Installation
 Clone the repository:
 
 bash
@@ -24,7 +24,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install the required dependencies (if any):
 
 pip install -r requirements.txt 
-# How to Use
+## How to Use
 1. Train the RL Players
 You can train two RL players using Q-learning. The training involves the players playing against each other for a specified number of epochs. During each epoch, their strategies are updated based on the outcome of the game.
 
@@ -44,7 +44,7 @@ You can also play against one of the trained RL players. The game will be a 0-su
 play()
 You will take turns entering moves for the human player, and the RL player will respond using its trained policy.
 
-# Code Overview
+## Code Overview
 -state.py
 
 get_all_states(): Generates all possible board configurations for a Tic Tac Toe game.
