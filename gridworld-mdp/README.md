@@ -1,10 +1,10 @@
 # Gridworld as Finite MDP
-# Overview
+## Overview
 This repository contains an implementation of a Finite Markov Decision Process (MDP) using a simple Gridworld environment. The environment consists of a rectangular grid where each cell represents a state, and the agent can take one of four possible actions: north, south, east, and west. The goal is to explore and understand the optimal policies and value functions for the agent using techniques from reinforcement learning.
 
 The project demonstrates how an agent can solve the MDP using the Bellman equation, computes the state-value functions, and visualizes the corresponding optimal policies for various states in the grid.
 
-# Gridworld Environment
+## Gridworld Environment
 The grid consists of a 5x5 rectangular grid with special states, denoted as A, A', B, and B':
 
 State A: When the agent is in state A, it receives a reward of +10 for all actions and is always moved to A'.
@@ -17,7 +17,7 @@ Other states: In all other cells, the agent receives a reward of 0, except when 
 
 The agent follows a random policy where all four actions are selected with equal probability (i.e., action probability = 0.25) for each state. The discount factor is set to 0.9.
 
-# Key Concepts
+## Key Concepts
 - State-Value Function: The expected return for being in a given state and following a particular policy.
 
 - Optimal Policy: The policy that yields the highest expected return from any given state.

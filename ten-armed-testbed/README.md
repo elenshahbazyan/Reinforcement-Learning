@@ -1,13 +1,13 @@
 # Ten-Armed Bandit Testbed
-# Overview
+## Overview
 This repository provides an implementation and exploration of the Multi-Armed Bandit (MAB) problem, as introduced in Reinforcement Learning: An Introduction by Sutton and Barto. The MAB problem is a classic example of a reinforcement learning scenario where an agent needs to explore and exploit actions to maximize its cumulative reward over time.
 
 The testbed features a 10-armed bandit problem, allowing for the evaluation of several strategies that balance exploration and exploitation. The project simulates and compares different algorithms such as ε-greedy, UCB, and Gradient Bandit Algorithms.
 
-# Multi-Armed Bandit Problem
+## Multi-Armed Bandit Problem
 In this problem, an agent selects from a set of available actions, each with a different and unknown probability distribution for rewards. The agent’s goal is to choose actions that maximize the total cumulative reward, navigating the trade-off between exploration (testing actions to learn more about their rewards) and exploitation (selecting actions that are known to give high rewards).
 
-# Key Concepts
+## Key Concepts
 - k-Armed Bandits
 The bandit consists of k different actions (arms), each associated with a reward distribution that is unknown to the agent.
 
@@ -17,10 +17,10 @@ The agent must decide whether to select the action that appears to give the best
 - Action-Value Methods
 Techniques for estimating the expected reward of each action to guide the agent’s decision-making process.
 
-# Project Breakdown
+## Project Breakdown
 This project consists of five primary sections, each examining different aspects of the Ten-Armed Bandit problem.
 
-# Reward Distribution
+## Reward Distribution
 Simulates and visualizes the reward distribution of a 10-armed bandit.
 
 Objective: Understand the variability in rewards across different arms.
