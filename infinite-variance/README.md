@@ -34,9 +34,7 @@ The environment is run for 100,000 episodes, across 10 runs.
 - The ordinary importance sampling estimate is computed over episodes.
 
 ### Visualization
-- Generated plot is saved in the generated_images/ folder:
-
-figure_5_4.png:
+- Generated plot is saved in the generated_images/ folder: figure_5_4.png:
 - A line plot showing the ordinary importance sampling estimates across episodes (log scale). This plot highlights the instability and variance in the learning curve across multiple runs.
 
 
