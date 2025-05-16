@@ -59,7 +59,7 @@ Key Features:
 
 This project demonstrates how dynamic programming techniques can solve decision-making problems under uncertainty, and it offers insights into optimal betting behavior in probabilistic environments.
 
-## Project 5: [Black jack](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/blackjack) 
+## Project 6: [Black jack](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/blackjack) 
 This project tackles the Blackjack Problem, a foundational example in Reinforcement Learning, where the goal is to learn an optimal policy for playing the game of Blackjack through interaction with the environment. 
 
 Key Features:
@@ -74,7 +74,7 @@ Key Features:
 
 This project demonstrates how reinforcement learning techniques can be applied to classic games, providing insights into how agents learn optimal decision-making under uncertainty.
 
-## Project 6: [Infinite Variance](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/infinite-variance)
+## Project 7: [Infinite Variance](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/infinite-variance)
 This project investigates the problem of infinite variance in off-policy Monte Carlo estimation using importance sampling. The environment is intentionally simple to isolate and demonstrate the mathematical instability caused by discrepancies between the behavior and target policies. Specifically, it showcases how repeated sampling under a mismatched policy distribution can lead to an exploding variance in value estimates.
 
 Key Features:
@@ -90,6 +90,25 @@ Key Features:
 - Foundational for Safe Off-Policy Learning: This simulation highlights the critical need for variance reduction techniques when learning from off-policy data.
 
 - This project serves as a conceptual and practical illustration of why naive off-policy learning with importance sampling can be unstable and why alternative techniques like weighted importance sampling or per-decision corrections are often necessary.
+
+## Project 8: [Random Walk](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk)
+This project explores the Random Walk Problem, a classic example in Reinforcement Learning that demonstrates the differences between prediction algorithms under a fixed policy. The environment consists of five non-terminal states (A–E) and two terminal states at each end. An agent starts in the middle and moves randomly left or right until reaching a terminal state. The project evaluates how well different methods estimate the state values through experience.
+
+Key Features:
+
+- Models a Linear Environment: Represents a symmetric random walk with terminal states and a uniform random policy.
+
+- Implements Value Prediction Algorithms: Uses Temporal-Difference (TD(0)) and Monte Carlo (MC) methods to estimate the value function of each non-terminal state.
+
+- Tracks Learning Performance: Calculates and visualizes Root Mean Squared Error (RMSE) between learned values and true state values over multiple episodes.
+
+- Compares Step-Size Effects: Runs experiments with various learning rates to analyze the convergence and stability of TD and MC methods.
+
+- Includes Batch Learning: Demonstrates how batch updating affects learning performance for both methods in terms of convergence speed and accuracy.
+
+- Visualizes Results: Produces detailed plots showing learning curves, estimated state values at different episodes, and error trends across episodes and learning rates.
+
+This project highlights the key differences in learning dynamics between TD and MC algorithms and illustrates how both perform under online and batch learning scenarios in a simple yet effective environment.
 
 
 # Reference
