@@ -37,9 +37,9 @@ Key Concepts:
 
 - Two metrics are visualized:
 
-- - Learning performance over time (episodic rewards).
+  - Learning performance over time (episodic rewards).
 
-- - Effect of step-size (α) on both interim (first 100 episodes) and asymptotic performance.
+  - Effect of step-size (α) on both interim (first 100 episodes) and asymptotic performance.
 
 ### Visualization
 Generated plots are saved in the generated_images/ folder:
