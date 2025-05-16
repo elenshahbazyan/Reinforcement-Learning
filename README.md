@@ -51,11 +51,11 @@ This project explores the Gambler’s Problem, a classic example in Reinforcemen
 
 Key Features:
 
-State and Action Modeling: Represents the gambler’s capital as the state space and the amount staked as the action space.
+- State and Action Modeling: Represents the gambler’s capital as the state space and the amount staked as the action space.
 
-Value Iteration Algorithm: Uses value iteration to compute the optimal value function and derive the best betting strategy.
+- Value Iteration Algorithm: Uses value iteration to compute the optimal value function and derive the best betting strategy.
 
-Policy and Value Visualization: Plots the optimal policy and value function across different capital levels to illustrate the decision-making process.
+- Policy and Value Visualization: Plots the optimal policy and value function across different capital levels to illustrate the decision-making process.
 
 This project demonstrates how dynamic programming techniques can solve decision-making problems under uncertainty, and it offers insights into optimal betting behavior in probabilistic environments.
 
