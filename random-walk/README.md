@@ -13,6 +13,8 @@ In Random Walk:
 - The reward is 0 for all transitions, except reaching state G, which gives a reward of 1.
 
 - The true value of each non-terminal state is known and used for evaluating learning performance.
+  
+- The goal is to estimate the state-value function 𝑉(𝑠) under a given policy using learning algorithms.
 
 ### Implementation
 Key Concepts:
