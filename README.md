@@ -47,14 +47,17 @@ Key features:
 -Comparison of the performance of DP techniques in solving the Gridworld problem.
 
 ## Project 5: [Gambler's](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/gambler-problem) Problem
-This project addresses the Gambler’s Problem, a classic problem in Reinforcement Learning modeled as a Markov Decision Process (MDP). The gambler has a certain amount of capital and makes bets on a sequence of coin flips. The goal is to reach a capital of 100 dollars without running out of money. The project uses value iteration to find the optimal betting strategy, maximizing the probability of reaching the goal.
-Key features:
+This project explores the Gambler’s Problem, a classic example in Reinforcement Learning modeled as a Markov Decision Process (MDP). In this scenario, a gambler places bets on a series of coin flips, with the objective of reaching a capital of 100 dollars without losing everything. The project applies value iteration to determine the optimal strategy that maximizes the probability of reaching the goal.
 
--Models the gambler’s capital as the state space and the stakes as actions.
+Key Features:
 
--Implements value iteration to calculate the optimal policy for the gambler.
+State and Action Modeling: Represents the gambler’s capital as the state space and the amount staked as the action space.
 
--Visualizes the value function and the optimal policy for different capital levels.
+Value Iteration Algorithm: Uses value iteration to compute the optimal value function and derive the best betting strategy.
+
+Policy and Value Visualization: Plots the optimal policy and value function across different capital levels to illustrate the decision-making process.
+
+This project demonstrates how dynamic programming techniques can solve decision-making problems under uncertainty, and it offers insights into optimal betting behavior in probabilistic environments.
 
 ## Project 5: [Black jack](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/blackjack) 
 This project tackles the Blackjack Problem, a foundational example in Reinforcement Learning, where the goal is to learn an optimal policy for playing the game of Blackjack through interaction with the environment. 
