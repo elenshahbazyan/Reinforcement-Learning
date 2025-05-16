@@ -7,44 +7,44 @@ This project implements the game of Tic-Tac-Toe using Reinforcement Learning tec
 
 Key features:
 
--Implementation of the Tic-Tac-Toe game board.
+- Implementation of the Tic-Tac-Toe game board.
 
--Reinforcement Learning agent that plays the game and improves over time.
+- Reinforcement Learning agent that plays the game and improves over time.
 
--Training the agent to achieve optimal strategies.
+- Training the agent to achieve optimal strategies.
 
 ## Project 2: [Multi-Armed Bandit](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/ten-armed-testbed) Problem
 The Ten-Armed Testbed is a classic benchmark problem in Reinforcement Learning. In this project, the environment consists of 10 one-armed bandits, each with a different probability distribution. The goal is to maximize the cumulative reward by selecting the optimal actions (arms) over time.
 
 Key features:
 
--Simulates the 10-armed bandit problem.
+- Simulates the 10-armed bandit problem.
 
--Implements different action-selection strategies such as epsilon-greedy, UCB, and others.
+- Implements different action-selection strategies such as epsilon-greedy, UCB, and others.
 
--Tracks the agent's performance and cumulative reward.
+- Tracks the agent's performance and cumulative reward.
 
 ## Project 3:[Gridworld MDP](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/gridworld-mdp) (Markov Decision Process)
 This project models a simple Gridworld environment using a Markov Decision Process (MDP). The agent moves through a grid, choosing actions that result in different states, aiming to maximize rewards while avoiding penalties.
 
 Key features:
 
--Gridworld environment setup with different states and rewards.
+- Gridworld environment setup with different states and rewards.
 
--Implementing MDP to find the optimal policy using value iteration or policy iteration algorithms.
+- Implementing MDP to find the optimal policy using value iteration or policy iteration algorithms.
 
--Visual representation of the agent's learning process.
+- Visual representation of the agent's learning process.
 
 ## Project 4: [Gridworld DP](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/gridworld-dp) (Dynamic Programming)
 The Gridworld DP project extends the MDP-based Gridworld environment by applying Dynamic Programming (DP) techniques to solve the reinforcement learning problem. This project shows how value iteration and policy iteration can be used to compute optimal policies in a known environment.
 
 Key features:
 
--Gridworld environment for the agent to navigate.
+- Gridworld environment for the agent to navigate.
 
--Application of Dynamic Programming algorithms (value iteration and policy iteration).
+- Application of Dynamic Programming algorithms (value iteration and policy iteration).
 
--Comparison of the performance of DP techniques in solving the Gridworld problem.
+- Comparison of the performance of DP techniques in solving the Gridworld problem.
 
 ## Project 5: [Gambler's](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/gambler-problem) Problem
 This project explores the Gambler’s Problem, a classic example in Reinforcement Learning modeled as a Markov Decision Process (MDP). In this scenario, a gambler places bets on a series of coin flips, with the objective of reaching a capital of 100 dollars without losing everything. The project applies value iteration to determine the optimal strategy that maximizes the probability of reaching the goal.
