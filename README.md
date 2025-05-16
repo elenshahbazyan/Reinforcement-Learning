@@ -110,6 +110,25 @@ Key Features:
 
 This project highlights the key differences in learning dynamics between TD and MC algorithms and illustrates how both perform under online and batch learning scenarios in a simple yet effective environment.
 
+## Project 10: [Cliff Walking](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/cliff-walking)
+This project explores the Cliff Walking problem, where an agent navigates a grid from a start state to a goal while avoiding a cliff that results in a large penalty. The agent learns to find the optimal path using SARSA and Q-learning algorithms.
+
+Key Features:
+
+- Grid Environment: A 4x12 grid with a goal at the bottom-right and a cliff at the top.
+
+- Algorithms Implemented: SARSA and Q-learning to learn optimal policies.
+
+- Multiple Runs: 50 independent runs with 500 episodes each to compute average rewards.
+
+- Reward Tracking: Sum of rewards across episodes to evaluate learning progress.
+
+- Policy Visualization: Displays optimal policies for both algorithms.
+
+- Step-Size Comparison: Experiments with different step sizes to analyze performance and convergence.
+
+This project demonstrates how SARSA and Q-learning perform in environments with risky states, focusing on the impact of exploration and step-size parameters on convergence.
+
 
 # Reference
 Sutton R.S., Barto A.G. - Reinforcement Learning: An Introduction (2nd edition) https://archive.org/details/rlbook2018/mode/2up
