@@ -42,8 +42,8 @@ Updates are repeated until values converge.
 TD shows better performance than MC in terms of RMSE.
 
 ### Visualization
-Generated plots are saved in the generated_images/ folder:
+- Generated plots are saved in the generated_images/ folder:
 
-example_6_2.png: Shows value estimates after 0, 1, 10, and 100 episodes, and compares TD vs. MC using different step sizes.
+- example_6_2.png: Shows value estimates after 0, 1, 10, and 100 episodes, and compares TD vs. MC using different step sizes.
 
-figure_6_2.png: Compares batch TD and MC in terms of RMSE over episodes.
+- figure_6_2.png: Compares batch TD and MC in terms of RMSE over episodes.
