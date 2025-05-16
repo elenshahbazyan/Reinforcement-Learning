@@ -55,5 +55,22 @@ Key features:
 -Implements value iteration to calculate the optimal policy for the gambler.
 
 -Visualizes the value function and the optimal policy for different capital levels.
+
+## Project 5: [Black jack](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/blackjack) 
+This project tackles the Blackjack Problem, a foundational example in Reinforcement Learning, where the goal is to learn an optimal policy for playing the game of Blackjack through interaction with the environment. 
+
+Key Features:
+
+- Models the Game State: Represents the state space using the player’s current sum, the dealer’s visible card, and whether the player has a usable ace.
+
+- Implements Policy Iteration or Monte Carlo Methods: Uses Monte Carlo control (or optionally Temporal-Difference methods) to estimate action-value functions and improve the policy iteratively.
+
+- Learns an Optimal Policy: Determines the best action (hit or stick) for each possible game state to maximize the player's chances of winning.
+
+- Visualizes Policy and Value Function: Produces 3D surface plots or heatmaps showing the optimal value function and policy for both usable and non-usable ace scenarios.
+
+This project demonstrates how reinforcement learning techniques can be applied to classic games, providing insights into how agents learn optimal decision-making under uncertainty.
+
+
 # Reference
 Sutton R.S., Barto A.G. - Reinforcement Learning: An Introduction (2nd edition) https://archive.org/details/rlbook2018/mode/2up
