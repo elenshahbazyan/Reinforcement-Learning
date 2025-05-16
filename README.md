@@ -71,6 +71,23 @@ Key Features:
 
 This project demonstrates how reinforcement learning techniques can be applied to classic games, providing insights into how agents learn optimal decision-making under uncertainty.
 
+## Project 6: [Infinite Variance](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/infinite-variance)
+This project investigates the problem of infinite variance in off-policy Monte Carlo estimation using importance sampling. The environment is intentionally simple to isolate and demonstrate the mathematical instability caused by discrepancies between the behavior and target policies. Specifically, it showcases how repeated sampling under a mismatched policy distribution can lead to an exploding variance in value estimates.
+
+Key Features:
+
+- Defines a Clear Policy Mismatch: The target policy always selects the action 'left', while the behavior policy randomly selects between 'left' and 'right' with equal probability.
+
+- Simulates Episodic Trajectories: Simulates complete episodes where rewards are only achieved under specific transitions, leading to highly variable returns.
+
+- Tracks Action Trajectories for Importance Sampling: Records the sequence of actions to compute importance sampling ratios, which are key to estimating expected returns under the target policy.
+
+- Demonstrates Variance Explosion: By accumulating episodes where actions rarely align with the target policy, the code reveals how importance sampling weights can grow exponentially, illustrating the infinite variance problem.
+
+- Foundational for Safe Off-Policy Learning: This simulation highlights the critical need for variance reduction techniques when learning from off-policy data.
+
+- This project serves as a conceptual and practical illustration of why naive off-policy learning with importance sampling can be unstable and why alternative techniques like weighted importance sampling or per-decision corrections are often necessary.
+
 
 # Reference
 Sutton R.S., Barto A.G. - Reinforcement Learning: An Introduction (2nd edition) https://archive.org/details/rlbook2018/mode/2up
