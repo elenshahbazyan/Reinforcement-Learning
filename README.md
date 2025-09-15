@@ -150,6 +150,8 @@ This project demonstrates how SARSA and Q-learning perform in environments with 
 
 ## Project 11: [Random Walk NTD](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-ntd)
 
+## Project 12: [Mazes](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/mazes)
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
