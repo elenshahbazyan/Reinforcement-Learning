@@ -149,6 +149,25 @@ Key Features:
 This project demonstrates how SARSA and Q-learning perform in environments with risky states, focusing on the impact of exploration and step-size parameters on convergence.
 
 ## Project 11: [Random Walk NTD](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-ntd)
+This project extends the classic Random Walk problem by implementing n-step Temporal Difference (TD) learning methods. The environment consists of 19 non-terminal states with two terminal states at each end, where an agent performs a random walk and learns state values using n-step bootstrapping methods.
+
+Key Features:
+
+- Extended State Space: Uses 19 non-terminal states (compared to 5 in the basic Random Walk) for more detailed value function approximation.
+  
+- N-step TD Learning: Implements n-step temporal difference methods that bridge the gap between Monte Carlo and one-step TD methods.
+  
+- True Value Function: Compares learned values against analytically computed true state values from the Bellman equation.
+  
+- Bootstrapping Analysis: Demonstrates how different values of n (number of steps) affect learning performance and convergence.
+  
+- Episode-based Learning: Tracks complete episodes from start to terminal states, updating state values using n-step returns.
+  
+- Reward Structure: Terminal rewards of -1 (left) and +1 (right) with zero rewards for non-terminal transitions.
+  
+- Performance Evaluation: Analyzes convergence properties and estimation accuracy across different step sizes and n-values.
+
+This project illustrates the theoretical and practical aspects of n-step methods in temporal difference learning, showing how multi-step bootstrapping can improve learning efficiency while maintaining computational tractability compared to full Monte Carlo methods.
 
 ## Project 12: [Mazes](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/mazes)
 ## Project 13: [Updates Comparison](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/updates-comparison)
