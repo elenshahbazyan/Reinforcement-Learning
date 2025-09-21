@@ -175,11 +175,17 @@ This project implements the Dyna architecture for reinforcement learning, which 
 Key Features:
 
 - Dyna-Q Algorithm: Combines direct reinforcement learning with indirect learning through environmental model updates and planning steps.
+  
 - Model-Based Planning: Uses learned models (TrivialModel and TimeModel) to simulate additional experiences for faster learning.
+  
 - Changing Environment Adaptation: Demonstrates how different planning approaches handle environmental changes, such as obstacle relocation.
+  
 - Prioritized Sweeping: Implements priority-based planning that focuses computational resources on the most important state-action updates.
+  
 - Exploration Strategies: Uses ε-greedy action selection for balancing exploration and exploitation.
+  
 - Performance Comparison: Evaluates different planning strategies in static and dynamic maze environments.
+  
 - Computational Efficiency: Shows how planning steps can dramatically reduce the number of real environment interactions needed.
 
 This project illustrates fundamental concepts in model-based reinforcement learning, demonstrating how agents can leverage learned environmental models to improve sample efficiency and adapt to changing conditions. It highlights the trade-offs between planning complexity and learning performance in navigation tasks.
