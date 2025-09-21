@@ -191,6 +191,21 @@ Key Features:
 This project illustrates fundamental concepts in model-based reinforcement learning, demonstrating how agents can leverage learned environmental models to improve sample efficiency and adapt to changing conditions. It highlights the trade-offs between planning complexity and learning performance in navigation tasks.
 
 ## Project 13: [Updates Comparison](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/updates-comparison)
+This project analyzes how branching factor and sampling strategies affect value estimation accuracy in reinforcement learning. The implementation studies the relationship between environmental complexity and estimation error through controlled experiments.
+
+Key Features:
+
+- Branching Factor Analysis: Studies how the number of successor states affects estimation accuracy.
+  
+- Error Tracking: Monitors estimation errors as sample sizes increase.
+  
+- Statistical Modeling: Uses Gaussian distributions for controlled experimentation.
+  
+- Convergence Analysis: Evaluates how estimation accuracy improves with additional samples.
+  
+- Sample Efficiency: Analyzes computational cost versus estimation accuracy trade-offs.
+
+This project demonstrates how environmental structure influences sample complexity in value function approximation.
 
 
 # Reference
