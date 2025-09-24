@@ -149,8 +149,63 @@ Key Features:
 This project demonstrates how SARSA and Q-learning perform in environments with risky states, focusing on the impact of exploration and step-size parameters on convergence.
 
 ## Project 11: [Random Walk NTD](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-ntd)
+This project extends the classic Random Walk problem by implementing n-step Temporal Difference (TD) learning methods. The environment consists of 19 non-terminal states with two terminal states at each end, where an agent performs a random walk and learns state values using n-step bootstrapping methods.
+
+Key Features:
+
+- Extended State Space: Uses 19 non-terminal states (compared to 5 in the basic Random Walk) for more detailed value function approximation.
+  
+- N-step TD Learning: Implements n-step temporal difference methods that bridge the gap between Monte Carlo and one-step TD methods.
+  
+- True Value Function: Compares learned values against analytically computed true state values from the Bellman equation.
+  
+- Bootstrapping Analysis: Demonstrates how different values of n (number of steps) affect learning performance and convergence.
+  
+- Episode-based Learning: Tracks complete episodes from start to terminal states, updating state values using n-step returns.
+  
+- Reward Structure: Terminal rewards of -1 (left) and +1 (right) with zero rewards for non-terminal transitions.
+  
+- Performance Evaluation: Analyzes convergence properties and estimation accuracy across different step sizes and n-values.
+
+This project illustrates the theoretical and practical aspects of n-step methods in temporal difference learning, showing how multi-step bootstrapping can improve learning efficiency while maintaining computational tractability compared to full Monte Carlo methods.
 
 ## Project 12: [Mazes](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/mazes)
+This project implements the Dyna architecture for reinforcement learning, which integrates learning and planning by using a learned model of the environment. The project includes implementations of Dyna-Q, changing maze scenarios, and prioritized sweeping algorithms applied to maze navigation tasks.
+
+Key Features:
+
+- Dyna-Q Algorithm: Combines direct reinforcement learning with indirect learning through environmental model updates and planning steps.
+  
+- Model-Based Planning: Uses learned models (TrivialModel and TimeModel) to simulate additional experiences for faster learning.
+  
+- Changing Environment Adaptation: Demonstrates how different planning approaches handle environmental changes, such as obstacle relocation.
+  
+- Prioritized Sweeping: Implements priority-based planning that focuses computational resources on the most important state-action updates.
+  
+- Exploration Strategies: Uses ε-greedy action selection for balancing exploration and exploitation.
+  
+- Performance Comparison: Evaluates different planning strategies in static and dynamic maze environments.
+  
+- Computational Efficiency: Shows how planning steps can dramatically reduce the number of real environment interactions needed.
+
+This project illustrates fundamental concepts in model-based reinforcement learning, demonstrating how agents can leverage learned environmental models to improve sample efficiency and adapt to changing conditions. It highlights the trade-offs between planning complexity and learning performance in navigation tasks.
+
+## Project 13: [Updates Comparison](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/updates-comparison)
+This project analyzes how branching factor and sampling strategies affect value estimation accuracy in reinforcement learning. The implementation studies the relationship between environmental complexity and estimation error through controlled experiments.
+
+Key Features:
+
+- Branching Factor Analysis: Studies how the number of successor states affects estimation accuracy.
+  
+- Error Tracking: Monitors estimation errors as sample sizes increase.
+  
+- Statistical Modeling: Uses Gaussian distributions for controlled experimentation.
+  
+- Convergence Analysis: Evaluates how estimation accuracy improves with additional samples.
+  
+- Sample Efficiency: Analyzes computational cost versus estimation accuracy trade-offs.
+
+This project demonstrates how environmental structure influences sample complexity in value function approximation.
 
 
 # Reference
