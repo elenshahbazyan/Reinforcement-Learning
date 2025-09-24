@@ -207,6 +207,8 @@ Key Features:
 
 This project demonstrates how environmental structure influences sample complexity in value function approximation.
 
+## Project 14: [Trajectory-Sampling](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/trajectory-sampling)
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
