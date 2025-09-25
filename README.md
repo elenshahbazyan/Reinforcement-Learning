@@ -209,6 +209,24 @@ This project demonstrates how environmental structure influences sample complexi
 
 ## Project 14: [Trajectory-Sampling](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/trajectory-sampling)
 
+This project compares different sampling distributions for value function updates in reinforcement learning, specifically analyzing uniform sampling versus on-policy sampling in randomly generated MDPs. The implementation demonstrates how state visitation frequencies affect learning efficiency and convergence properties.
+
+Key Features:
+
+- Sampling Strategy Comparison: Contrasts uniform state-action sampling with on-policy distribution sampling.
+  
+- Random MDP Generation: Creates tasks with configurable state spaces and branching factors for controlled experiments.
+  
+- Expected Updates: Implements model-based value iteration using expected transitions rather than sample-based updates.
+  
+- Performance Evaluation: Uses Monte Carlo policy evaluation to measure learning progress.
+  
+- Parallel Processing: Utilizes multiprocessing for efficient experimentation across multiple random tasks.
+  
+- Convergence Analysis: Tracks value function accuracy over update steps for different sampling methods.
+
+This project illustrates how the choice of state visitation distribution fundamentally affects sample efficiency and learning dynamics in value-based reinforcement learning algorithms.
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
