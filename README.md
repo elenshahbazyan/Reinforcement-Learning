@@ -227,6 +227,8 @@ Key Features:
 
 This project illustrates how the choice of state visitation distribution fundamentally affects sample efficiency and learning dynamics in value-based reinforcement learning algorithms.
 
+## Project 15: [Random-walk-fa](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-fa)
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
