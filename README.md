@@ -231,6 +231,21 @@ This project illustrates how the choice of state visitation distribution fundame
 
 ## Project 16: [Coarse-coding](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/coarse-coding)
 
+This project demonstrates coarse coding as a function approximation technique in reinforcement learning. The implementation learns to approximate a square wave function using overlapping feature windows, illustrating how linear function approximation with distributed representations can capture non-linear patterns.
+Key Features:
+
+- Uses overlapping intervals as basis functions for distributed representation.
+  
+- Learns to approximate a discontinuous square wave function from random samples.
+  
+- Updates feature weights using stochastic gradient descent.
+  
+- Demonstrates generalization through overlapping features across the input domain.
+  
+- Configurable feature width, number of features, and step size parameters.
+
+This project illustrates fundamental concepts in value function approximation, showing how distributed representations enable learning continuous approximations of complex functions.
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
