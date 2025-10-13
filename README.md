@@ -229,6 +229,8 @@ This project illustrates how the choice of state visitation distribution fundame
 
 ## Project 15: [Random-walk-fa](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-fa)
 
+## Project 16: [Coarse-coding](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/coarse-coding)
+
 
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
