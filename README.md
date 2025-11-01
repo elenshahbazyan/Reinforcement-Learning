@@ -264,6 +264,23 @@ Key Features:
 
 This project illustrates fundamental concepts in value function approximation, showing how distributed representations enable learning continuous approximations of complex functions.
 
+## Project 17: [Mountain Car](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/mountain-car)
 
+This project implements the classic Mountain Car problem using semi-gradient n-step SARSA with tile coding for function approximation. The agent learns to drive an underpowered car up a steep hill by building momentum through strategic back-and-forth movements in a continuous state space.
+
+Key Features:
+- Continuous state space with position and velocity dimensions requiring function approximation.
+  
+- Tile coding implementation using hash tables for efficient feature representation.
+  
+- Semi-gradient n-step SARSA algorithm for learning optimal control policies.
+  
+- Physics-based dynamics with gravity affecting velocity calculations.
+  
+- Cost-to-go visualization showing learned value function across state space.
+  
+- Optimistic initialization enabling greedy action selection without explicit exploration.
+
+This project demonstrates how function approximation and tile coding enable reinforcement learning in continuous control tasks where the agent must learn complex momentum-based strategies.
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
