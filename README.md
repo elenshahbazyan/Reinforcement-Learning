@@ -229,6 +229,24 @@ This project illustrates how the choice of state visitation distribution fundame
 
 ## Project 15: [Random-walk-fa](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-fa)
 
+This project explores various function approximation methods for value estimation in a large-scale random walk environment with 1000 states. The implementation compares state aggregation, polynomial bases, Fourier bases, and tile coding techniques using gradient Monte Carlo and semi-gradient TD learning algorithms.
+
+Key Features:
+
+- Implements multiple function approximation techniques: state aggregation, polynomial bases, Fourier bases, and tile coding.
+  
+- Large state space (1000 non-terminal states) requiring generalization through function approximation.
+  
+- Compares gradient Monte Carlo and semi-gradient n-step TD algorithms.
+  
+- Computes true state values using dynamic programming for evaluation benchmarks.
+  
+- Random policy with variable step sizes (1-100) creating complex dynamics.
+  
+- Analyzes convergence properties and approximation quality across different methods.
+
+This project demonstrates how function approximation enables learning in large state spaces where tabular methods become impractical, highlighting the trade-offs between different representation schemes.
+
 ## Project 16: [Coarse-coding](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/coarse-coding)
 
 This project demonstrates coarse coding as a function approximation technique in reinforcement learning. The implementation learns to approximate a square wave function using overlapping feature windows, illustrating how linear function approximation with distributed representations can capture non-linear patterns.
