@@ -282,5 +282,24 @@ Key Features:
 - Optimistic initialization enabling greedy action selection without explicit exploration.
 
 This project demonstrates how function approximation and tile coding enable reinforcement learning in continuous control tasks where the agent must learn complex momentum-based strategies.
+
+## Project 18: [Access Control](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/access-control)
+
+This project implements a server access control system using differential semi-gradient SARSA for continuing tasks. The agent learns an optimal policy for accepting or rejecting customers with different priorities to maximize long-term average reward in a system with limited server resources.
+
+Key Features:
+- Continuing task formulation with average reward maximization instead of discounted returns.
+  
+- Four priority levels with exponentially increasing rewards (1, 2, 4, 8).
+  
+- Differential semi-gradient SARSA algorithm for average reward estimation.
+  
+- Tile coding function approximation for continuous state representation.
+  
+- Dynamic server availability with probabilistic transitions (6% chance servers become free).
+  
+- ε-greedy exploration balancing acceptance decisions across priority levels.
+
+This project demonstrates how reinforcement learning can solve resource allocation problems in continuing tasks where the goal is to maximize average reward rather than cumulative discounted reward.
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
