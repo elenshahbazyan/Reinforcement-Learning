@@ -302,24 +302,24 @@ Key Features:
 
 This project demonstrates how reinforcement learning can solve resource allocation problems in continuing tasks where the goal is to maximize average reward rather than cumulative discounted reward.
 
-## Project 18: [Access Control](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/counter-examples)
+## Project 18: [Counter Examples](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/counter-examples)
 
-This project implements a server access control system using differential semi-gradient SARSA for continuing tasks. The agent learns an optimal policy for accepting or rejecting customers with different priorities to maximize long-term average reward in a system with limited server resources.
+This project implements Baird's counter example demonstrating the divergence of semi-gradient off-policy TD methods with linear function approximation. The implementation compares various off-policy learning algorithms including semi-gradient TD, TDC (gradient-TD), and emphatic-TD methods to illustrate stability issues and solutions.
 
 Key Features:
 
-- Continuing task formulation with average reward maximization instead of discounted returns.
+- Seven-state MDP with two actions (dashed and solid) designed to expose off-policy instabilities.
   
-- Four priority levels with exponentially increasing rewards (1, 2, 4, 8).
+- Linear function approximation with 8-dimensional feature vectors.
   
-- Differential semi-gradient SARSA algorithm for average reward estimation.
+- Implements semi-gradient off-policy TD, semi-gradient DP, TDC (GTD(0)), and emphatic-TD methods.
   
-- Tile coding function approximation for continuous state representation.
+- Computes Root Mean Square Value Error (RMS-VE) and Root Mean Square Projected Bellman Error (RMS-PBE).
   
-- Dynamic server availability with probabilistic transitions (6% chance servers become free).
+- Demonstrates divergence of semi-gradient methods under off-policy distribution mismatch.
   
-- ε-greedy exploration balancing acceptance decisions across priority levels.
+- Shows convergence properties of true gradient methods (TDC) and emphatic approaches.
 
-This project demonstrates how reinforcement learning can solve resource allocation problems in continuing tasks where the goal is to maximize average reward rather than cumulative discounted reward.
+This project illustrates fundamental stability issues in off-policy reinforcement learning with function approximation and demonstrates how gradient-based corrections can ensure convergence.
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
