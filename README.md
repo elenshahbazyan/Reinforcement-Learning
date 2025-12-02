@@ -301,5 +301,25 @@ Key Features:
 - ε-greedy exploration balancing acceptance decisions across priority levels.
 
 This project demonstrates how reinforcement learning can solve resource allocation problems in continuing tasks where the goal is to maximize average reward rather than cumulative discounted reward.
+
+## Project 18: [Counter Examples](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/counter-examples)
+
+This project implements Baird's counter example demonstrating the divergence of semi-gradient off-policy TD methods with linear function approximation. The implementation compares various off-policy learning algorithms including semi-gradient TD, TDC (gradient-TD), and emphatic-TD methods to illustrate stability issues and solutions.
+
+Key Features:
+
+- Seven-state MDP with two actions (dashed and solid) designed to expose off-policy instabilities.
+  
+- Linear function approximation with 8-dimensional feature vectors.
+  
+- Implements semi-gradient off-policy TD, semi-gradient DP, TDC (GTD(0)), and emphatic-TD methods.
+  
+- Computes Root Mean Square Value Error (RMS-VE) and Root Mean Square Projected Bellman Error (RMS-PBE).
+  
+- Demonstrates divergence of semi-gradient methods under off-policy distribution mismatch.
+  
+- Shows convergence properties of true gradient methods (TDC) and emphatic approaches.
+
+This project illustrates fundamental stability issues in off-policy reinforcement learning with function approximation and demonstrates how gradient-based corrections can ensure convergence.
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
