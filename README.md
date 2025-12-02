@@ -328,10 +328,15 @@ This project explores eligibility traces in the 19-state random walk environment
 
 Key Features:
 - Implements three eligibility trace algorithms: off-line λ-return, TD(λ), and true online TD(λ).
+  
 - 19-state random walk environment with terminal rewards of -1 (left) and +1 (right).
+  
 - Compares accumulating traces (TD(λ)) and dutch traces (true online TD(λ)).
+  
 - Parameter sweep analysis across different λ values (0 to 1) and step sizes.
+  
 - RMS error tracking to evaluate learning performance over episodes.
+  
 - Demonstrates the bias-variance trade-off controlled by the trace-decay parameter.
 
 This project illustrates how eligibility traces bridge Monte Carlo and TD methods, showing the spectrum of algorithms available through different λ values and the convergence properties of each approach.
