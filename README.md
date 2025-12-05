@@ -302,7 +302,7 @@ Key Features:
 
 This project demonstrates how reinforcement learning can solve resource allocation problems in continuing tasks where the goal is to maximize average reward rather than cumulative discounted reward.
 
-## Project 18: [Counter Examples](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/counter-examples)
+## Project 19: [Counter Examples](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/counter-examples)
 
 This project implements Baird's counter example demonstrating the divergence of semi-gradient off-policy TD methods with linear function approximation. The implementation compares various off-policy learning algorithms including semi-gradient TD, TDC (gradient-TD), and emphatic-TD methods to illustrate stability issues and solutions.
 
@@ -322,7 +322,7 @@ Key Features:
 
 This project illustrates fundamental stability issues in off-policy reinforcement learning with function approximation and demonstrates how gradient-based corrections can ensure convergence.
 
-## Project 19: [Random Walk ET](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-et) (Eligibility Traces)
+## Project 20: [Random Walk ET](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/random-walk-et) (Eligibility Traces)
 
 This project explores eligibility traces in the 19-state random walk environment, comparing three λ-based algorithms: off-line λ-return, TD(λ), and true online TD(λ). The implementation demonstrates how eligibility traces unify Monte Carlo and temporal difference learning through the trace-decay parameter λ.
 
@@ -340,5 +340,24 @@ Key Features:
 - Demonstrates the bias-variance trade-off controlled by the trace-decay parameter.
 
 This project illustrates how eligibility traces bridge Monte Carlo and TD methods, showing the spectrum of algorithms available through different λ values and the convergence properties of each approach.
+
+## Project 21: [Mountain Car ET](https://github.com/elenshahbazyan/Reinforcement-Learning/tree/main/mountain-car-et)(Eligibility Traces)
+
+This project extends the classic Mountain Car problem with eligibility traces, implementing SARSA(λ) with multiple trace types: accumulating, dutch, replacing, and replacing with clearing. The implementation demonstrates how different eligibility trace mechanisms affect learning performance in continuous control tasks.
+
+Key Features:
+- SARSA(λ) algorithm with four eligibility trace types: accumulating, dutch, replacing, and replacing with clearing.
+  
+- Continuous state space (position, velocity) with tile coding function approximation.
+  
+- Compares trace mechanisms' impact on learning speed and convergence.
+  
+- Physics-based mountain car dynamics with momentum requirements.
+  
+- Step limit protection (5000 steps) to handle non-convergence cases.
+  
+- Episode-based performance tracking to evaluate learning progress.
+
+This project demonstrates how eligibility traces accelerate learning in continuous control by enabling faster credit assignment to earlier actions that contributed to eventual success.
 # Reference
 Sutton R.S., Barto A.G. - [Reinforcement Learning](http://incompleteideas.net/book/the-book.html): An Introduction (2nd edition)
